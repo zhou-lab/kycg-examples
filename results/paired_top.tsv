@@ -1,0 +1,33 @@
+tf	tissue	neglog10_fdr	overlap
+DLX2	fetal brain	34.1929988566848	51
+OTX2	fetal brain	29.5133215945641	75
+LHX2	fetal brain	17.9628293806729	74
+EOMES	fetal brain	16.0648040544957	23
+PAX6	fetal brain	14.6902785538	50
+DLX1	fetal brain	14.3277939316725	20
+LHX3	fetal brain	14.2274118217645	42
+DLX5	fetal brain	13.5551307287752	24
+BCL6	fetal brain	0	1
+HNF4A	fetal brain	0	2
+TEAD	fetal brain	0	2
+CLOCK	fetal brain	0	0
+NFIL3	fetal brain	0	0
+PPARA	fetal brain	0	0
+PROX1	fetal brain	0	0
+RXRA-B	fetal brain	0	0
+BCL6	hepatocyte	59.7768483897945	88
+HNF4A	hepatocyte	49.19110501758	121
+NFIL3	hepatocyte	40.3752554725314	71
+RXRA-B	hepatocyte	39.7415841934366	114
+CLOCK	hepatocyte	38.8617814566812	103
+TEAD	hepatocyte	35.9283051472057	108
+PROX1	hepatocyte	35.6707391080892	88
+PPARA	hepatocyte	35.6396106214216	85
+EOMES	hepatocyte	0	1
+LHX3	hepatocyte	0	3
+PAX6	hepatocyte	0	3
+DLX1	hepatocyte	0	0
+DLX2	hepatocyte	0	0
+DLX5	hepatocyte	0	0
+LHX2	hepatocyte	0	0
+OTX2	hepatocyte	0	0
