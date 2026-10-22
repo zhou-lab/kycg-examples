@@ -86,7 +86,7 @@ LV=$(awk -F'\t' 'NR>1{ if($2=="fetal brain") b[$1]=$3; else h[$1]=$3 }
 ## dropped so the finite cloud is legible.
 TOP=$(awk -F'\t' 'NR>1 && $13<0.05 && $10>0 {print $14"\t"$4}' \
       results/fetal_brain_2s.tsv | sort -k1,1gr | awk -F'\t' 'NR<=8{print $2}' \
-      | paste -sd'|')
+      | paste -sd'|' -)
 awk -F'\t' -v top="$TOP" '
   BEGIN{n=split(top,a,"|"); for(i=1;i<=n;i++) T[a[i]]=1
         print "estimate\tneglog10_fdr\tsig\tlabel"}
